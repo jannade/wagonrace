@@ -1,0 +1,30 @@
+/* Your board style here */
+td {
+  border: 1px solid rgb(200,200,200);
+}
+
+.racer_table td {
+  height: 80px;
+  width: 80px;
+}
+.racer_table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1_race td.active {
+  background-image: url("images/player_1.png");
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+#player2_race td.active {
+  background-image: url("images/player_2.png");
+  background-position: 50% 50%;
+  background-size: 80%;
+}
+
+.finish {
+  background-image: url("images/finish.jpeg");
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
